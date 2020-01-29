@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#401A34"
-    tools:context=".Detalles">
+    tools:context=".Detalles"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/fotousuario"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0"
+        android:src="@drawable/vector_logo" />
 
     <TextView
         android:id="@+id/enviajson"
@@ -15,55 +24,121 @@
         android:text="usuario"
         android:textAlignment="center"
         android:textColor="@color/cardview_light_background"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        android:textSize="30sp" />
 
-    <ImageView
-        android:id="@+id/fotousuario"
-        android:layout_width="256dp"
-        android:layout_height="181dp"
-        android:layout_marginTop="28dp"
-        android:layout_weight="1"
-        android:src="@drawable/vector_logo"
-        app:layout_constraintBottom_toTopOf="@+id/enviajson"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="438dp">
 
-    <TextView
-        android:id="@+id/enviajson2"
-        android:layout_width="322dp"
-        android:layout_height="70dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="68dp"
-        android:text="otroscampos"
-        android:textAlignment="center"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/enviajson3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="Direcciónurl"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/enviajson2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enviajson"
-        app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/enviajson3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="Direcciónurl"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp" />
 
-</android.support.constraint.ConstraintLayout>
+            <TextView
+                android:id="@+id/enviajson2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:text="PruebaApiGithubUsuarios Private
+ Java actualizadoayer
+Api_users_github
+Acceso a base de datos de usuarios de github
+ Java actualizadoanteayer
+GsonVolleyRecycleCard Private
+Versión y plantilla personal de Recycler, Gson, Glide, Volley y Card.
+ Java actualizadohace 3 días
+GsonVolleyRecycler Private
+Ejercitando librerias GSON, Volley, Glide con recycler y Card.
+ Java actualizadohace 5 días
+claseII_google_Maps Private
+ Java actualizadohace 17 días
+MapasDefinitivo
+Bifurcado de Valexx55 / MapasDefinitivo
+ Java 2 actualizado on 30 Oct 2019
+MapasApp
+Bifurcado de Valexx55 / MapasApp
+ Java 3 actualizado on 30 Oct 2019
+FragmentsApp
+Bifurcado de Valexx55 / FragmentsApp
+ Java 3 actualizado on 29 Oct 2019
+DescargaManagerApp
+Bifurcado de Valexx55 / DescargaManagerApp
+ Java 3 actualizado on 29 Oct 2019
+NumAleatorio
+Bifurcado de Golden34 / NumAleatorio
+n / A
+ Java 2 actualizado on 27 Oct 2019
+ItunesAndroidAppEtapas
+Bifurcado de Valexx55 / ItunesAndroidAppEtapas
+ Java 3 actualizado on 27 Oct 2019
+ItunesApp
+Bifurcado de Valexx55 / ItunesApp
+ Java 4 actualizado on 25 Oct 2019
+TextInputLayoutCFTIC
+Bifurcado de Valexx55 / TextInputLayoutCFTIC
+ Java 2 actualizado on 24 Oct 2019
+TransicionesCFTIC
+Bifurcado de Valexx55 / TransicionesCFTIC
+ Java 4 actualizado on 23 Oct 2019
+PaparazziApp
+Bifurcado de saqibsaleem22 / PaparazziApp
+ Java 4 actualizado on 23 Oct 2019
+MemoriaApp
+Bifurcado de Valexx55 / MemoriaApp
+ Java 3 actualizado on 22 Oct 2019
+DniAPP_Android
+Bifurcado de Valexx55 / DniAPP_Android
+ Java 4 actualizado on 15 Oct 2019
+Adivinar_Numero
+Bifurcado de cmadrid19 / Adivinar_Numero
+ Java 1 actualizado on 10 Oct 2019
+Dniprueba_Android
+Actualizado on 7 Oct 2019
+androide
+Actualizado on 2 Oct 2019
+ANDROID_182053
+Bifurcado de Valexx55 / ANDROID_182053
+REPO CLASE ANDROID CFTIC 2053
+ Java 7 actualizado on 1 Oct 2019
+FICHApp
+Bifurcado de Valexx55 / FICHApp
+ Java 13 actualizado on 21 Jun 2019
+ContentProviderCFTIC
+Bifurcado de Valexx55 / ContentProviderCFTIC
+ Java 6 actualizado on 20 Jun 2019
+AppTurismoRivas
+Bifurcado de Valexx55 / AppTurismoRivas
+ Java 10 actualizado on 18 Jun 2019
+MenuLateralCFTIC
+Bifurcado de Valexx55 / MenuLateralCFTIC
+ Java 7 actualizado on 6 Jun 2019
+ANDROID_SQLITE
+Bifurcado de Valexx55 / ANDROID_SQLITE
+ Java 2 actualizado on 5 Jun 2019
+RecicladorCFTIC
+Bifurcado de Valexx55 / RecyclerCFTIC
+ Java 4 actualizado on 3 Jun 2019
+code-an-image-gallery-android-app-with-picasso
+Bifurcado de tutsplus / code-an-image-gallery-android-app-with-picasso
+ Kotlin 2 actualizado on 21 Apr 2018
+Ejemplo_Gson
+Bifurcado de RicardoMoya / Gson_Example
+GSON es un API en Java, desarrollada por Google, que se utiliza para convertir objetos Java a JSON (serialización) y JSON a objetos Java (deserialización)"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
