@@ -26,7 +26,7 @@ public class AdaptadorIe extends RecyclerView.Adapter<AdaptadorIe.CamposView>{
         this.context = context;
         this.getsets = getsets;
     }
-
+// prueba git flow
     View view;
     @Override
     public CamposView onCreateViewHolder(ViewGroup parent, int viewType) {
