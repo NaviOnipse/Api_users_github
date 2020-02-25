@@ -1,5 +1,6 @@
 package com.estudio.pruebagit;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Getset> listarray = new ArrayList<Getset>();
     RecyclerView vercycler;
     AdaptadorIe adaptador;
+
 
     // ArrayList<Rvdata> rvdata = getData();
 

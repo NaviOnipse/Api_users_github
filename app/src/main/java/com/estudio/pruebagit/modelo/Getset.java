@@ -4,7 +4,13 @@ public class Getset {
     public String html_url;
     public String login;
     public String avatar_url;
-    public String img;
+    public String name;
+
+    public String getname() {
+        return name;
+    }
+
+    public void setname(String name) {  this.name = this.name; }
 
     public String getlogin() {
         return login;
